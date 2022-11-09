@@ -12,7 +12,7 @@ export default function Contact() {
                 jasonbean3000@gmail.com
                 </article>
                 <article className="github">
-                <a href='https://github.com/jasonbean3000' target='_blank'>github.com/jasonbean3000</a>
+                <a href='https://github.com/jasonbean3000' target='_blank' rel='noreferrer'>github.com/jasonbean3000</a>
                 </article>
                 <article className="phone">
                 PHONE: <span>817-721-7641</span>
