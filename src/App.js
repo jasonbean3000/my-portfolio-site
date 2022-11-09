@@ -16,6 +16,9 @@ function App() {
           <Header />
         </header>
         <div className='main-content-container'>
+          <div className='photo-container-hidden'>
+            <Photo />
+          </div>
           <div className='main-content'>
             <Route path='/'>
               <Redirect to='/home' />

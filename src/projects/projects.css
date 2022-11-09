@@ -1,7 +1,7 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 80vh;
     margin-left: 5%;
     animation: fadeIn linear 1s;
@@ -18,11 +18,18 @@
     100% {opacity: 1;}
   }
 
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
 .project-1-container, .project-2-container, .project-3-container {
     display: flex;
     justify-content: space-between;
     font-size: 1.75rem;
-    padding-top: 5%;
+    
 }
 
 .project-content-container {
@@ -55,3 +62,36 @@ a:hover {
     margin-left: 30%;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 550px) {
+    .projects-container {
+      margin-right: 5%;
+      justify-content: center;
+      height: 300px;
+    }
+    article.sub-content {
+      font-size: .8rem;
+    }
+    
+    
+    .project-icon-container {
+        display: none;
+    }
+    .project-content-container a {
+        font-size: 1.25rem;
+        padding-top: 2%;
+        padding-bottom: 0%;
+    }
+    
+  }
+
+  @media only screen and (max-height: 700px) {
+    article.sub-content {
+        font-size: .6rem;
+      }
+      .project-content-container a {
+        font-size: .75rem;
+        padding-top: 0;
+        padding-bottom: 0%;
+    }
+  }

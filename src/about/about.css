@@ -26,3 +26,17 @@
     font-size: 1.6rem;
     padding-top: 4%;
 }
+
+@media only screen and (max-width: 550px) {
+  .about-container {
+    margin-right: 5%;
+    height: 300px;
+  }
+  article.statement-line-1, article.statement-line-2, article.statement-line-3 {
+    font-size: 1rem;
+  }
+  article.intro-line {
+    font-size: 2rem;
+  }
+
+}

@@ -13,16 +13,30 @@
     border-color: #1f1f22;
 }
 
-.photo-container img {
+.photo-container2 img {
     height: 588px;
     width: 441px;
     filter: grayscale(95%);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
-@media only screen and (max-width: 550px) {
-    
+@media only screen and (max-width: 1030px) {
+    .photo-container2 img {
+        height: 475px;
+        width: 360px;
+    }
+
   }
+
+@media only screen and (max-width: 550px) {
+    .photo-container2 img {
+        height: 280px;
+        width: 220px;
+    }
+
+  }
+
+
 
 
 

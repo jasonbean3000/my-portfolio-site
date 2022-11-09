@@ -26,3 +26,15 @@
     font-size: 2.5rem;
     padding-top: 2%;
 }
+
+
+@media only screen and (max-width: 550px) {
+  .home-container {
+    margin-right: 5%;
+    height: 300px;
+  }
+  article.statement-line {
+    font-size: 1.5rem;
+  }
+ 
+}

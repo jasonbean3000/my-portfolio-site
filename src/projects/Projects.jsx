@@ -7,6 +7,7 @@ import longRangeIcon from '../resources/images/school-long-range-logo.png'
 export default function Projects() {
     return (
         <div className="projects-container">
+            <div className="projects-content">
             <div className="project-1-container">
                 <div className="project-content-container">
                     <a href='https://jovial-muffin-4da696.netlify.app' target='_blank' rel='noreferrer'>Example Long Range Facilities Masterplan for School District</a>
@@ -37,6 +38,8 @@ export default function Projects() {
                     <a href='https://endearing-griffin-fbb9fc.netlify.app' target='_blank' rel='noreferrer'><img alt='' src={weatherAppIcon} /></a>
                 </div>
             </div>
+            </div>
+            
         </div>
     )
 }

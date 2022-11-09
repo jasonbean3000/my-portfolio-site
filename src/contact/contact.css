@@ -44,3 +44,16 @@ span {
     color:#F0D600
 }
 
+@media only screen and (max-width: 550px) {
+    .contact-container {
+      margin-right: 5%;
+      height: 300px;
+    }
+    article.email, article.github, article.phone {
+      font-size: 1rem;
+    }
+    article.intro-line {
+      font-size: 2rem;
+    }
+    
+  }
