@@ -71,8 +71,11 @@ a:hover {
     }
     article.sub-content {
       font-size: .8rem;
+      text-align: center;
     }
-    
+    .project-2-container {
+        justify-content: center;
+    }
     
     .project-icon-container {
         display: none;
