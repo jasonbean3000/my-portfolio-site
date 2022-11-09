@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    margin-left: 5%;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+.intro-line {
+    font-size: 2rem;
+}
+
+.statement-line {
+    font-size: 2.5rem;
+    padding-top: 2%;
+}

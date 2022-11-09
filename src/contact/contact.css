@@ -1,0 +1,46 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    margin-left: 5%;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+.intro-line {
+    font-size: 3rem;
+}
+
+.email, .github, .phone {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 1.5rem;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.github {
+    color: #18D7F0;
+}
+
+.github:hover {
+    text-decoration: underline;
+}
+
+span {
+    color:#F0D600
+}
+

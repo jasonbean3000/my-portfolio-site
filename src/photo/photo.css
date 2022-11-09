@@ -1,0 +1,31 @@
+.portrait-container {
+    background-image: url('../resources/images/portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    width: 550px;
+    box-shadow: 50px 50px 50px 50px #1f1f22 inset, -50px 50px 50px 50px #1f1f22 inset, -50px -50px 50px 50px #1f1f22 inset;
+    filter: grayscale(95%);
+    display: flex;
+    margin-top: 5%;
+    padding: 1px;
+    border-color: #1f1f22;
+}
+
+.photo-container img {
+    height: 588px;
+    width: 441px;
+    filter: grayscale(95%);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    
+  }
+
+
+
+
+
+

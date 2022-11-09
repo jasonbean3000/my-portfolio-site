@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.active-nav-link {
+    color: #F0D600;
+}

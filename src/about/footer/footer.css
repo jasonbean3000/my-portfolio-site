@@ -1,0 +1,25 @@
+.skills-logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 0;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-right: 5%;
+    padding-bottom: 1%;
+}
+
+.skills {
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+.icons {
+    position: fixed;
+    right: 0;
+    margin-right: 3%;
+}
+
