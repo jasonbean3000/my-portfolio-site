@@ -11,6 +11,9 @@ export default function About() {
                 <article className="statement-line-1">
                 I am a front-end engineer from Fort Worth, TX. I enjoy making beautiful web applications to provide optimal user experience.
                 </article>
+                <article className="statement-line-1">
+                My skills include, but are not limited to: HTML, CSS, JavaScript, React, Redux, NodeJS and Git. I am always excited to learn new technologies.
+                </article>
                 <article className="statement-line-2">
                 When not behind a computer, I love biking, music, and spending time with family and friends.
                 </article>
