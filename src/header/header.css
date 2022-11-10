@@ -27,3 +27,14 @@
     }
     
 }
+
+@media only screen and (max-width: 825px) {
+    .header-container {
+        width: 100%;
+       
+    }
+    .nav-link {
+        padding-right: 2%;
+    }
+
+}

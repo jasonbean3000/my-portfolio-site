@@ -63,15 +63,19 @@ a:hover {
     border-radius: 10px;
 }
 
+article.projects-title {
+    font-size: 2rem;
+}
+
 @media only screen and (max-width: 550px) {
     .projects-container {
       margin-right: 5%;
-      justify-content: center;
-      height: 300px;
+      
     }
     article.sub-content {
-      font-size: .8rem;
+      font-size: 1rem;
       text-align: center;
+
     }
     .project-2-container {
         justify-content: center;
@@ -82,19 +86,17 @@ a:hover {
     }
     .project-content-container a {
         font-size: 1.25rem;
-        padding-top: 2%;
-        padding-bottom: 0%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+        text-decoration: underline;
     }
     
   }
 
-  @media only screen and (max-height: 700px) {
-    article.sub-content {
-        font-size: .6rem;
-      }
-      .project-content-container a {
-        font-size: .75rem;
-        padding-top: 0;
-        padding-bottom: 0%;
+  @media only screen and (max-width: 1030px) {
+    .project-icon-container {
+        display: none;
     }
   }
+  
+  

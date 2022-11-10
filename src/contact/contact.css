@@ -46,6 +46,7 @@ span {
 
 @media only screen and (max-width: 550px) {
     .contact-container {
+      margin-top: 20%;
       margin-right: 5%;
       height: 300px;
     }

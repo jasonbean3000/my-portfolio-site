@@ -32,9 +32,15 @@
   .home-container {
     margin-right: 5%;
     height: 300px;
+    padding-top: 30%;
   }
   article.statement-line {
     font-size: 1.5rem;
   }
- 
+  .photo-container-hidden {
+    display: block;
+    text-align: center;
+    margin-bottom: 15%;
+  }
 }
+

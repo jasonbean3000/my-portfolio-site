@@ -44,9 +44,5 @@ header {
     width: 100%;
     text-align: center;
   }
-  .photo-container-hidden {
-    display: block;
-    text-align: center;
-    padding-top: 10%;
-  }
+  
 }

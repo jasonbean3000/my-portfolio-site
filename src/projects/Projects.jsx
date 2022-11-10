@@ -8,6 +8,7 @@ export default function Projects() {
     return (
         <div className="projects-container">
             <div className="projects-content">
+            <article className="projects-title">Projects</article>
             <div className="project-1-container">
                 <div className="project-content-container">
                     <a href='https://jovial-muffin-4da696.netlify.app' target='_blank' rel='noreferrer'>Example Long Range Facilities Masterplan for School District</a>
