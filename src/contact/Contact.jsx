@@ -17,6 +17,9 @@ export default function Contact() {
                 <article className="phone">
                 PHONE: <span>817-721-7641</span>
                 </article>
+                <article className="resume">
+                <a href='https://pdfhost.io/v/UAsB~fQkI_2022_Jason_Bean_Resume' target='_blank' rel='noreferrer'>Click for Resume</a>
+                </article>
             </div>
         </div>
     )

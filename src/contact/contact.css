@@ -22,7 +22,7 @@
     font-size: 3rem;
 }
 
-.email, .github, .phone {
+.email, .github, .phone, .resume {
     margin-top: 2%;
     margin-left: 1%;
     font-size: 1.5rem;
@@ -36,9 +36,10 @@
     color: #18D7F0;
 }
 
-.github:hover {
+.github a:hover {
     text-decoration: underline;
 }
+
 
 span {
     color:#F0D600
@@ -50,11 +51,13 @@ span {
       margin-right: 5%;
       height: 300px;
     }
-    article.email, article.github, article.phone {
+    article.email, article.github, article.phone, article.resume {
       font-size: 1rem;
     }
     article.intro-line {
       font-size: 2rem;
     }
-    
+    .resume {
+      text-decoration: underline;
+    }
   }
