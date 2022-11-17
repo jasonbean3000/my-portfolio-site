@@ -41,3 +41,13 @@
   }
 
 }
+
+@media only screen and (max-height: 700px) {
+
+article.statement-line-1, article.statement-line-2, article.statement-line-3 {
+  font-size: 1rem;
+}
+  article.intro-line {
+      font-size: 2rem;
+  }
+}
