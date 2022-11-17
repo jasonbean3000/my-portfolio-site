@@ -1,6 +1,6 @@
 import React from "react";
 import './photo.css'
-import portrait from '../resources/images/portrait4.jpg'
+import portrait from '../resources/images/portrait2.jpeg'
 
 export default function Photo() {
     return (
