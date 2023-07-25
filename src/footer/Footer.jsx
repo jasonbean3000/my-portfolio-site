@@ -1,12 +1,12 @@
 import React from "react";
 import './footer.css'
-import reactIcon from '../../resources/images/react-icon.png'
-import cssIcon from '../../resources/images/css-icon.png'
-import htmlIcon from '../../resources/images/html-icon.png'
-import reduxIcon from '../../resources/images/redux-icon.png'
-import javaScriptIcon from '../../resources/images/js-icon.png'
-import nodeIcon from '../../resources/images/node-icon.png'
-import gitIcon from '../../resources/images/git-icon.png'
+import reactIcon from '../resources/images/react-icon.png'
+import cssIcon from '../resources/images/css-icon.png'
+import htmlIcon from '../resources/images/html-icon.png'
+import reduxIcon from '../resources/images/redux-icon.png'
+import javaScriptIcon from '../resources/images/js-icon.png'
+import nodeIcon from '../resources/images/node-icon.png'
+import gitIcon from '../resources/images/git-icon.png'
 
 export default function Footer() {
     return (

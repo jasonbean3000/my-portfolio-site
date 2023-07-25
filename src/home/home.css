@@ -1,46 +1,224 @@
-.home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 80vh;
-    margin-left: 5%;
-    animation: fadeIn linear 1s;
-    -webkit-animation: fadeIn linear 1s;
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.site-container {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    overflow: hidden;
+}
+
+.home {
+  margin-top: 70px;
+  height: 100vh;
+}
+
+.type-container {
+  display: flex;
+  justify-content: center;
+  padding: 15% 0;
+  font-size: 60px;
+}
+
+.intro-text2 {
+  padding-left: 20px;
+} 
+
+.purple-border {
+  border-top: solid 1px rgba(109, 1, 240, .75);
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  font-size: 16px;
+  font-family: 'Ysabeau Office', Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  z-index: 100;
+  font-family: Montserrat;
+}
+
+.menu h3 {
+  padding-left: 25px;
+}
+
+.content-container {
+  height: 100vh;
+  padding: 5% 0;
+  width: 100%;
+}
+
+.content-container .align-center {
+  text-align: center;
+}
 
 .intro-line {
-    font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 .statement-line {
-    font-size: 2.5rem;
-    padding-top: 2%;
+  font-family: Montserrat;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 2%;
+}
+
+.about-animate {
+  transform: translateX(-50px);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  z-index: -1;
+  transform: translateX(50px);
+}
+
+.about-content .statement-line {
+  padding-top: 30px;
+  line-height: 40px;
 }
 
 
-@media only screen and (max-width: 550px) {
-  .home-container {
-    margin-right: 5%;
-    height: 300px;
-    padding-top: 30%;
+
+.exp-animate-1 {
+  transform: translateX(-50px);
+}
+
+.exp-animate-2 {
+  transform: translateX(50px);
+}
+
+.block-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.sub-list {
+  font-size: 1.25rem;
+}
+
+.subtitle, .sub-list {
+  text-align: left;
+}
+
+.projects-animate-1 {
+  transform: translateX(-50px);
+}
+
+.projects-animate-2 {
+  transform: translateX(50px);
+}
+
+.hover {
+  cursor: pointer;
+  color: white;
+}
+
+.crescent a {
+  text-decoration: none;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.photo-container-crescent img {
+  width: 500px;
+}
+
+.contact-animate-1 {
+  transform: translateX(-50px);
+}
+
+.contact-animate-2 {
+  transform: translateX(50px);
+}
+
+.contact-animate-2 a {
+  text-decoration: none;
+}
+
+.contact-animate-2 a:hover {
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 968px) {
+  .block-container {
+    flex-direction: column;
+    padding-bottom: 75px;
   }
-  article.statement-line {
-    font-size: 1.5rem;
+  .intro-line, .statement-line {
+    text-align: left;
   }
-  .photo-container-hidden {
-    display: block;
-    text-align: center;
-    margin-bottom: 15%;
+  .statement-line {
+    padding-right: 3%;
+  }
+  #experience {
+    height: auto;
+  }
+  .intro-text, .intro-text2 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .content-container .align-center {
+    text-align: left;
+  }
+  .about-content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-content .statement-line {
+    padding-top: 0px;
+  }
+  .content-container {
+    padding-left: 2.5%;
+    
+  }
+  .type-container {
+    flex-direction: column;
+    padding-left: 2.5%;
+    margin: 0px;
+  }
+  .type-container .intro-text2 {
+    padding-left: 0px;
+  }
+  .photo-container2 {
+    justify-content: left;
+    padding-bottom: 0px;
+  }
+  .photo-container-crescent img {
+    width: 250px;
+  }
+  .menu {
+    font-size: 13px;
+    padding-top: 6px;
+  }
+  .menu h3 {
+    padding-left: 15px;
   }
 }
 

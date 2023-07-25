@@ -1,4 +1,4 @@
-.portrait-container {
+/* .portrait-container {
     background-image: url('../resources/images/portrait.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -11,16 +11,21 @@
     margin-top: 5%;
     padding: 1px;
     border-color: #1f1f22;
-}
+} */
 
 .photo-container2 img {
-    height: 588px;
-    width: 441px;
-    filter: grayscale(95%);
-    border-radius: 15px;
+    width: 200px;
+    
 }
 
-@media only screen and (max-width: 1030px) {
+.photo-container2 {
+    display: flex;
+   justify-content: center;
+   padding-bottom: 60px;
+}
+
+
+/* @media only screen and (max-width: 1030px) {
     .photo-container2 img {
         height: 441px;
         width: 330px;
@@ -34,7 +39,7 @@
         width: 220px;
     }
 
-  }
+  } */
 
 
 
