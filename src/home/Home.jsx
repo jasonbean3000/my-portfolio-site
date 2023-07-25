@@ -178,7 +178,7 @@ export default function Home() {
     
             <div className="content-container purple-border" id="experience" ref={homeRef}>
                 <article className="intro-line align-center exp-animate-1">
-                    Web Developement
+                    Web Development
                 </article>
                 <div className="block-container exp-animate-2">
                     <article className="statement-line">
@@ -251,8 +251,8 @@ export default function Home() {
                     <article className="statement-line">
                         <p className="subtitle email">jasonbean3000@gmail.com</p>
                         <p className="sub-list">817-721-7641</p>
-                        <a href='https://github.com/jasonbean3000' target='_blank' rel='noreferrer'><p className="sub-list">github.com/jasonbean3000</p></a>
-                        <a href='https://pdfhost.io/v/UAsB~fQkI_2022_Jason_Bean_Resume' target='_blank' rel='noreferrer'><p className="sub-list">Click for resume</p></a>
+                        <a href='https://github.com/jasonbean3000' target='_blank' rel='noreferrer' className="github-link"><p className="sub-list">github.com/jasonbean3000</p></a>
+                        <a href='https://pdfhost.io/v/UAsB~fQkI_2022_Jason_Bean_Resume' target='_blank' rel='noreferrer' className="resume-link"><p className="sub-list">Click for resume</p></a>
                     </article>
                  
                 </div>
