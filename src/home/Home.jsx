@@ -225,7 +225,7 @@ export default function Home() {
                             <div className="photo-container-crescent">
                                 <a href="https://thecrescentfw.com/" target="blank"><img src={crescentPhoto} alt='' /></a>
                             </div>
-                              <a href="https://thecrescentfw.com/"><p className="sub-list hover">Crescent Fort Worth</p></a>
+                              <a href="https://thecrescentfw.com/"><p className="sub-list hover">Crescent Fort Worth (Schaefer Advertising)</p></a>
                         </div>
                         
                     </article>
@@ -233,9 +233,9 @@ export default function Home() {
                         <p className="subtitle">Personal Projects</p>
                         <div className="crescent">
                             <div className="photo-container-crescent">
-                                <a href="https://thecrescentfw.com/" target="blank"><img src={masterPhoto} alt='' /></a>
+                                <a href="https://jovial-muffin-4da696.netlify.app" target="blank"><img src={masterPhoto} alt='' /></a>
                             </div>
-                              <a href="https://thecrescentfw.com/"><p className="sub-list hover">School ISD Masterplan</p></a>
+                              <a href="https://jovial-muffin-4da696.netlify.app"><p className="sub-list hover">School ISD Masterplan</p></a>
                         </div>
                     </article>
                     </div>
