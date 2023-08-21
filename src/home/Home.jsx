@@ -8,6 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
 import crescentPhoto from '../resources/images/crescent.png';
 import masterPhoto from '../resources/images/master-plan.png';
+import redditPhoto from '../resources/images/reddit-app-icon.png'
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -222,20 +223,29 @@ export default function Home() {
                     <article className="statement-line">
                         <p className="subtitle">Collaborations</p>
                         <div className="crescent">
+                        <a href="https://thecrescentfw.com/"><p className="sub-list hover">Crescent Fort Worth (Schaefer Advertising)</p></a>
+
                             <div className="photo-container-crescent">
                                 <a href="https://thecrescentfw.com/" target="blank"><img src={crescentPhoto} alt='' /></a>
                             </div>
-                              <a href="https://thecrescentfw.com/"><p className="sub-list hover">Crescent Fort Worth (Schaefer Advertising)</p></a>
                         </div>
                         
                     </article>
                     <article className="statement-line">
                         <p className="subtitle">Personal Projects</p>
                         <div className="crescent">
+                        <a href="https://jovial-muffin-4da696.netlify.app"><p className="sub-list hover">School ISD Masterplan</p></a>
+
                             <div className="photo-container-crescent">
                                 <a href="https://jovial-muffin-4da696.netlify.app" target="blank"><img src={masterPhoto} alt='' /></a>
                             </div>
-                              <a href="https://jovial-muffin-4da696.netlify.app"><p className="sub-list hover">School ISD Masterplan</p></a>
+                        </div>
+                        <div className="crescent">
+                        <a href="https://luminous-torrone-cc5bbe.netlify.app/"><p className="sub-list hover">Reddit Api App</p></a>
+
+                            <div className="photo-container-crescent">
+                                <a href="https://luminous-torrone-cc5bbe.netlify.app/" target="blank"><img src={redditPhoto} alt='' /></a>
+                            </div>
                         </div>
                     </article>
                     </div>
