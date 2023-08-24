@@ -197,7 +197,7 @@
   }
   .content-container {
     padding-left: 2.5%;
-    
+    height: fit-content;
   }
   .type-container {
     flex-direction: column;
